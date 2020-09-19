@@ -473,8 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z01R/proprietary/vendor/etc/sensors/sensors_registry:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensors_registry \
     vendor/asus/Z01R/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/asus/Z01R/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/asus/Z01R/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
-    vendor/asus/Z01R/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/asus/Z01R/proprietary/vendor/etc/vstab_db_0_1080p_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/vstab_db_0_1080p_video_30fps.config \
     vendor/asus/Z01R/proprietary/vendor/etc/vstab_db_0_1080p_video_60fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/vstab_db_0_1080p_video_60fps.config \
     vendor/asus/Z01R/proprietary/vendor/etc/vstab_db_0_21601080p_video_30fps.config:$(TARGET_COPY_OUT_VENDOR)/etc/vstab_db_0_21601080p_video_30fps.config \
@@ -1399,4 +1397,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon
+    WfdCommon \
+    android.hardware.gnss@2.0-service-qti \
+    vendor.qti.gnss@3.0-service
